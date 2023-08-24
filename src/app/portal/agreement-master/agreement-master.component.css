@@ -22,7 +22,7 @@ input[type=file]::file-selector-button {
   .switch {
       position: relative;
       display: inline-block;
-      width: 100px;
+      width: 80px;
       height: 34px;
       
     }
@@ -49,7 +49,7 @@ input[type=file]::file-selector-button {
       position: absolute;
       content: "";
       height: 26px;
-      width: 50px;
+      width: 40px;
       left: 4px;
       bottom: 4px;
       background-color: white;
