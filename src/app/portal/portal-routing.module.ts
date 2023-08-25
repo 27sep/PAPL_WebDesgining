@@ -5,6 +5,9 @@ import{AgreementTypeMasterComponent} from './agreement-type-master/agreement-typ
 import{AgreementMasterComponent} from './agreement-master/agreement-master.component';
 import { UnitRegistrationComponent } from './unit-registration/unit-registration.component';
 import { HomeRegistrationComponent } from './home-registration/home-registration.component';
+import {  UtilityCalculationComponent } from './utility-calculation/utility-calculation.component';
+import { UnitBookingComponent } from './unit-booking/unit-booking.component';
+
 
 const routes: Routes = [
   {
@@ -26,6 +29,14 @@ const routes: Routes = [
   {
     path: 'portal/agreement-master',
     component: AgreementMasterComponent
+  },
+  {
+    path: 'portal/utility-calculation',
+    component: UtilityCalculationComponent
+  },
+  {
+    path: 'portal/unit-booking',
+    component: UnitBookingComponent
   },
 ];
 

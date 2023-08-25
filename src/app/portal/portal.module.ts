@@ -9,6 +9,8 @@ import { UnitRegistrationComponent } from './unit-registration/unit-registration
 import { AgreementTypeMasterComponent } from './agreement-type-master/agreement-type-master.component';
 import { HomeRegistrationComponent } from './home-registration/home-registration.component';
 import { AgreementMasterComponent } from './agreement-master/agreement-master.component';
+import { UtilityCalculationComponent } from './utility-calculation/utility-calculation.component';
+import { UnitBookingComponent } from './unit-booking/unit-booking.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { AgreementMasterComponent } from './agreement-master/agreement-master.co
     UnitRegistrationComponent,
     AgreementTypeMasterComponent,
     HomeRegistrationComponent,
-    AgreementMasterComponent
+    AgreementMasterComponent,
+    UtilityCalculationComponent,
+    UnitBookingComponent
   ],
   imports: [
     CommonModule,
