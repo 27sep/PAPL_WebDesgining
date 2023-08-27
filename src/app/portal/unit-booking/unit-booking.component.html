@@ -100,8 +100,15 @@
                         <td>{{ item.Occupied }}</td>
                         <td>{{ item.Available}}</td>
                         <td>
-                            <button type="button" style="background-color: rgb(22, 133, 236);color: #faf7f7;"class="btn ">Book</button>
+                            <!-- popup-modal.component.html -->
 
+                            <div class="modal">
+                                <div class="modal-content">
+                                    <h2>Popup Content</h2>
+                                    <!-- Add your content here -->
+                                    <button (click)="closeModal()">Close</button>
+                                </div>
+                            </div>
 
 
                         </td>
