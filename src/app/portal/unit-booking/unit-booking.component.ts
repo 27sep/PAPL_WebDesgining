@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {  Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-unit-booking',
@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class UnitBookingComponent {
 
+  tableData = [
+    { SL_NO: 1, Unit_No: 'ROOM 1', Occupied: '5',Available:'5', Action:''},
+    
+    // Add more data items as needed
+  ];
+
+
+ 
+
+  isModalOpen = false;
+
+  openModal() {
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
+  }
 }
