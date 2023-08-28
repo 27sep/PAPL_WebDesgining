@@ -16,13 +16,5 @@ export class UnitBookingComponent {
 
  
 
-  isModalOpen = false;
-
-  openModal() {
-    this.isModalOpen = true;
-  }
-
-  closeModal() {
-    this.isModalOpen = false;
-  }
+  
 }
